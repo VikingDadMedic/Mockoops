@@ -9,5 +9,5 @@ export const config = {
   width: 1920,
   template: Template,
   description: "Stars showing your github contributions",
-  authors: ["Mohit Yadav"],
+  authors: ["VS"],
 };

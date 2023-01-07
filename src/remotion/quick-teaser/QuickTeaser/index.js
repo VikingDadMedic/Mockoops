@@ -117,7 +117,7 @@ const QuickTeaser = ({ video, audio, borderRadius }) => {
       <Audio
         src={
           audio ||
-          "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/ES_Love+Me+Back.mp3"
+          "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3"
         }
         loop
       />

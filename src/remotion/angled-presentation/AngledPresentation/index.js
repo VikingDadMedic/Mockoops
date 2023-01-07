@@ -97,14 +97,14 @@ const AngledPresentation = ({ bgVideo, video, audio }) => {
             style={{ ...bgVideoStyles }}
             src={
               bgVideo ||
-              "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/pexels-artem-podrez-7234993+(1).mp4"
+              "https://travel-content-studio.s3.amazonaws.com/Plasma.mp4"
             }
             muted
           />
           <Audio
             src={
               audio ||
-              "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/prototypr.mp3"
+              "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3"
             }
           />
         </Loop>

@@ -9,33 +9,41 @@ export const config = {
   template: TextReveal,
   defaultProps: {
     video:
-      "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/assetsfinal.mp4",
+      "https://travel-content-studio.s3.amazonaws.com/Summer_Forest.mp4",
     audio:
-      "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/ES_Love+Me+Back.mp3",
+      "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
+    companyName: "Your Company Name",
+    companyUrl: "Your website URL",
   },
   height: 1080,
   width: 1920,
-  authors: ["Mohit Yadav"],
+  authors: ["VS"],
   inputPropsSchema: [
     {
       type: "file",
       defaultValue:
-        "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/Pckd-2+-Dashboard---Anime-3.mp4",
+        "https://travel-content-studio.s3.amazonaws.com/Summer_Forest.mp4",
       name: "Video",
       key: "video",
     },
     {
       type: "file",
       defaultValue:
-        "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/ES_Love+Me+Back.mp3",
+        "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
       name: "Audio",
       key: "audio",
     },
     {
       type: "text",
-      defaultValue: "Coming soon...",
-      name: "Text",
-      key: "text",
+      defaultValue: "Your Company Name",
+      name: "Company Name",
+      key: "companyName",
+    },
+    {
+      type: "text",
+      defaultValue: "Your website URL",
+      name: "Company URL",
+      key: "companyUrl",
     },
   ],
 };

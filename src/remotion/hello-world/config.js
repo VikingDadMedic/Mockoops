@@ -12,7 +12,7 @@ export const config = {
   },
   height: 1080,
   width: 1920,
-  authors: ["Mohit Yadav"],
+  authors: ["VS"],
   inputPropsSchema: [
     {
       type: "text",

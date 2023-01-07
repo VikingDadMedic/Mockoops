@@ -9,20 +9,20 @@ export const config = {
   template: Laptop,
   defaultProps: {
     bgVideo:
-      "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/production+ID_4884237.mp4",
+      "https://travel-content-studio.s3.amazonaws.com/Clouds.mp4",
     video:
       "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/scenery.mp4",
     audio:
-      "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/assetssunset.mp3",
+      "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
   },
   height: 800,
   width: 1516,
-  authors: ["Mohit Yadav"],
+  authors: ["VS"],
   inputPropsSchema: [
     {
       type: "file",
       defaultValue:
-        "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/production+ID_4884237.mp4",
+        "https://travel-content-studio.s3.amazonaws.com/Clouds.mp4",
       name: "Background Video",
       key: "bgVideo",
     },
@@ -36,7 +36,7 @@ export const config = {
     {
       type: "file",
       defaultValue:
-        "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/assetssunset.mp3",
+        "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
       name: "Audio",
       key: "audio",
     },

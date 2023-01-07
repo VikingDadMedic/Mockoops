@@ -9,35 +9,35 @@ export const config = {
   template: RotateTitle,
   defaultProps: {
     title: "New Website",
-    subtitle: "Releasing today!",
+    subtitle: "Your Go To Travel Advice",
   },
   height: 600,
   width: 1066,
-  authors: ["Mohit Yadav"],
+  authors: ["VS"],
   inputPropsSchema: [
     {
       type: "text",
-      defaultValue: "My new Website",
+      defaultValue: "Ace Adventure Travel",
       name: "Title Text",
       key: "title",
     },
     {
       type: "text",
-      defaultValue: "Releasing today!",
+      defaultValue: "Your Go To Travel Advice",
       name: "Subtitle Text",
       key: "subtitle",
     },
     {
       type: "file",
       defaultValue:
-        "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/Screen+Recording+2022-06-27+at+6.54.27+PM+(1).mov",
+        "https://travel-content-studio.s3.amazonaws.com/ocean.mp4",
       name: "Video",
       key: "video",
     },
     {
       type: "file",
       defaultValue:
-        "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Come%202gether/ES_Come%202gether.mp3",
+        "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
       name: "Audio",
       key: "audio",
     },

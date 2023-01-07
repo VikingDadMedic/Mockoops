@@ -45,19 +45,19 @@ export const RotateTitle = ({
   return (
     <AbsoluteFill style={wrapperStyle}>
       {/* Background Video */}
-      <Loop durationInFrames={145}>
+      <Loop durationInFrames={3600}>
         <Video
           style={backgroundVideoStyle}
           src={
             backgroundVideo ||
-            "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/production+ID_4779866.mp4"
+            "https://travel-content-studio.s3.amazonaws.com/ocean.mp4"
           }
         />
       </Loop>
       <Audio
         src={
           audio ||
-          "https://dkihjuum4jcjr.cloudfront.net/ES_ITUNES/Come%202gether/ES_Come%202gether.mp3"
+          "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3"
         }
       />
 
@@ -65,9 +65,8 @@ export const RotateTitle = ({
       <div
         style={{
           ...deviceStyle,
-          transform: `scale(${scale}) rotateY(${
-            90 - Math.abs(flipValue) * 90
-          }deg)`,
+          transform: `scale(${scale}) rotateY(${90 - Math.abs(flipValue) * 90
+            }deg)`,
         }}
       >
         {/* Title Screen */}
@@ -85,7 +84,7 @@ export const RotateTitle = ({
               startFrom={0}
               src={
                 video ||
-                "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/Screen+Recording+2022-06-27+at+6.54.27+PM+(1).mov"
+                "https://travel-content-studio.s3.amazonaws.com/ocean.mp4"
               }
               muted
             />

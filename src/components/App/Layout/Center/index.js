@@ -17,7 +17,7 @@ const Center = () => {
   const inputProps = useRecoilValue(inputPropsState);
 
   useEffect(() => {
-    return () => {};
+    return () => { };
   }, [playerProgressSeconds]);
 
   return (
@@ -145,7 +145,7 @@ const Center = () => {
 
       {/* Credits + Footer */}
       <footer className={styles.footer}>
-        <Link href="https://twitter.com/Just_moh_it" passHref>
+        <Link href="https://www.voygaerwebsites.com" passHref>
           <a className={styles.link}>
             Created by{" "}
             <span
@@ -159,10 +159,10 @@ const Center = () => {
             >
               {isHovering ? (
                 <>
-                  Mohit Yadav <span className={styles.wave}>👋</span>
+                  Voyager Social <span className={styles.wave}>👋</span>
                 </>
               ) : (
-                "This Guy"
+                "The Best"
               )}
             </span>
           </a>

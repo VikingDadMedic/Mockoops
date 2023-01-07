@@ -10,7 +10,7 @@ const Root = () => {
       width={1920}
       height={1080}
       id="quick-teaser"
-      defaultProps={{ text: "Coming soon" }}
+      defaultProps={{ companyName: "Your Company Name", companyUrl: "Your website URL" }}
     />
   );
 };

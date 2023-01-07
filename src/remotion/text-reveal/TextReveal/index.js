@@ -9,7 +9,7 @@ import {
 } from "remotion";
 // import Confetti from "remotion-confetti";
 
-const QuickTeaser = ({ video, audio, text, isConfettiEnabled = true }) => {
+const QuickTeaser = ({ video, audio, companyName, companyUrl, isConfettiEnabled = true }) => {
   const frame = useCurrentFrame();
 
   const keyframes = {
@@ -125,7 +125,7 @@ const QuickTeaser = ({ video, audio, text, isConfettiEnabled = true }) => {
       <Audio
         src={
           audio ||
-          "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/ES_Love+Me+Back.mp3"
+          "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3"
         }
         loop
       />
@@ -133,10 +133,12 @@ const QuickTeaser = ({ video, audio, text, isConfettiEnabled = true }) => {
       <AbsoluteFill
         style={{
           top: "80px",
-          right: "500px",
+          right: "400px",
           width: "100%",
+          padding: "0 40px",
+          margin: "0 0 0 30",
           height: "max-content",
-          textAlign: "center",
+          textAlign: "left",
           fontSize: "70px",
           fontFamily: "'Helvetica', sans-serif",
           fontWeight: "bold",
@@ -144,7 +146,26 @@ const QuickTeaser = ({ video, audio, text, isConfettiEnabled = true }) => {
           opacity: currentFromKeyframe?.textOpacity,
         }}
       >
-        {text}
+        {companyName}
+      </AbsoluteFill>
+
+      <AbsoluteFill
+        style={{
+          top: "80px",
+          right: "500px",
+          width: "100%",
+          padding: "0 40px",
+          margin: "0 0 30 0",
+          height: "max-content",
+          textAlign: "right",
+          fontSize: "70px",
+          fontFamily: "'Helvetica', sans-serif",
+          fontWeight: "semibold",
+          color: "#1d1e20",
+          opacity: currentFromKeyframe?.textOpacity,
+        }}
+      >
+        {companyUrl}
       </AbsoluteFill>
 
       {/* Screen Video */}
@@ -172,10 +193,10 @@ const QuickTeaser = ({ video, audio, text, isConfettiEnabled = true }) => {
           overflow: "hidden",
         }}
       >
-        {/* <Video
+        <Video
           src={
             video ||
-            "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/Pckd-2+-Dashboard---Anime-3.mp4"
+            "https://travel-content-studio.s3.amazonaws.com/Summer_Forest.mp4"
           }
           style={{
             width: "100%",
@@ -183,7 +204,7 @@ const QuickTeaser = ({ video, audio, text, isConfettiEnabled = true }) => {
             minWidth: "1400px",
           }}
           muted
-        /> */}
+        />
       </AbsoluteFill>
     </AbsoluteFill>
   );

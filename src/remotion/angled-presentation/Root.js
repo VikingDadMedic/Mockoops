@@ -12,11 +12,11 @@ export const Root = () => {
       height={600}
       defaultProps={{
         bgVideo:
-          "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/pexels-artem-podrez-7234993+(1).mp4",
+          "https://travel-content-studio.s3.amazonaws.com/Plasma.mp4",
         video:
           "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/assetsScreen+Recording+2022-06-25+at+6.31.33+PM.mov",
         audio:
-          "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/prototypr.mp3",
+          "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
       }}
     />
   );

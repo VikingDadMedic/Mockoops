@@ -24,7 +24,7 @@ const data = {
   reviewData: [
     {
       author: {
-        name: "Mohit Yadav",
+        name: "VS",
         description: "Dev",
         avatar: {
           src: "https://pbs.twimg.com/profile_images/1525045654976077825/5379dAKX_400x400.jpg",

@@ -11,11 +11,11 @@ export const config = {
     video:
       "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/assetsfinal.mp4",
     audio:
-      "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/ES_Love+Me+Back.mp3",
+      "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
   },
   height: 1080,
   width: 1920,
-  authors: ["Mohit Yadav"],
+  authors: ["VS"],
   inputPropsSchema: [
     {
       type: "file",
@@ -27,7 +27,7 @@ export const config = {
     {
       type: "file",
       defaultValue:
-        "https://s3.ap-south-1.amazonaws.com/assets.mockoops.mohitya.dev/ES_Love+Me+Back.mp3",
+        "https://file-examples.com/storage/feefe3d0dd63b5a899e4775/2017/11/file_example_MP3_700KB.mp3",
       name: "Audio",
       key: "audio",
     },

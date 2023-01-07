@@ -1,6 +1,6 @@
 {
   "name": "mockoops",
-  "author": "Mohit Yadav (@Just_Moh_it)",
+  "author": "VS (@Just_Moh_it)",
   "private": true,
   "scripts": {
     "dev": "next dev",
